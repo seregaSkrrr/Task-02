@@ -28,7 +28,7 @@ public:
 	void TypeInMatrix() {
 		for (int Temp = 0; Temp < length; Temp++) {
 			for (int Temp1 = 0; Temp1 < width; Temp1++) {
-				cout << "Ââåäèòå ýëåìåíò ìàòðèöû: ";
+				cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°Ñ‚Ñ€Ð¸Ñ†Ñ‹: ";
 				cin >> _matrix[Temp][Temp1];
 			}
 		}
