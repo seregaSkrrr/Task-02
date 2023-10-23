@@ -30,8 +30,8 @@ void MaxAndMin(T Array, size_t Array_Size) {
         else if (Maximum < Array[Temp])
             Maximum = Array[Temp];
     }
-    cout << "Ìàêñèìàëüíûé ýëåìåíò: " << Maximum << endl;
-    cout << "Ìèíèìàëüíûé ýëåìåíò: " << Minimal << endl;
+    cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << Maximum << endl;
+    cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚: " << Minimal << endl;
     cout << endl;
 }
 
@@ -59,13 +59,13 @@ void BinarySearch(int Number, T Array, size_t Array_Size) {
         else if (Number > Array[Middle])
             Left = Middle + 1;
         else {
-            cout << "Âàøå ÷èñëî íà ïîçèöèè: " << Middle+1;
+            cout << "Ð’Ð°ÑˆÐµ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ð° Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ð¸: " << Middle+1;
             cout << endl << endl;
             break;
         }
 
         if (Left > Right) {
-            cout << "Òàêîãî ÷èñëà íåò â äàííîì ìàññèâå" << endl << endl;
+            cout << "Ð¢Ð°ÐºÐ¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ Ð½ÐµÑ‚Ñƒ" << endl << endl;
             break;
         }
     }
