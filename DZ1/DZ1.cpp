@@ -13,26 +13,26 @@ int main() {
     int _number;
     int number;
 
-    //cout << "Ìàññèâ: ";
-    //Initial(Array, Size);
-    //Print(Array, Size);
+    cout << "ĞœĞ°ÑÑĞ¸Ğ²: ";
+    Initial(Array, Size);
+    Print(Array, Size);
 
-    //MaxAndMin(Array, Size);
+    MaxAndMin(Array, Size);
 
-    //cout << "Îòñîğòèğîâàííûé ìàññèâ: ";
-    //Sort(Array, Size);    
-    //Print(Array, Size);
-    //cout << "Ââåäèòå ÷èñëî äëÿ ïîèñêà: ";
-    //cin >> _number;
-    //BinarySearch(_number, Array, Size);
+    cout << "ĞÑ‚ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²: ";
+    Sort(Array, Size);    
+    Print(Array, Size);
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ´Ğ»Ñ Ğ¿Ğ¾Ğ¸ÑĞºĞ° Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğµ: ";
+    cin >> _number;
+    BinarySearch(_number, Array, Size);
 
-    //cout << "Âûáåğèòå íîìåğ êàêîãî ıëåìåíòà çàìåíèòü: ";
-    //cin >> _number;
-    //cout << "Êàêîå ÷èñëî ïîñòàâèòü çàìåñòî: ";
-    //cin >> number;
-    //SwitchElement(Array, Size, _number, number);
-    //cout << "Èñïğàâëåííûé ìàññèâ: ";
-    //Print(Array, Size);
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ¾Ğ¼ĞµÑ€ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ° Ğ²Ğ¼ÑĞµÑ‚Ğ¾ ĞºĞ¾Ñ‚Ğ¾Ñ€Ğ¾Ğ³Ğ¾ Ğ²ÑÑ‚Ğ°Ğ²Ğ¸Ğ¼ Ğ½Ğ¾Ğ²Ğ¾Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾: ";
+    cin >> _number;
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ°Ğ¼Ğ¾ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ½Ğ° ĞºÑ‚Ğ¾Ñ€Ğ¾Ğµ Ğ¼ĞµĞ½ÑĞµĞ¼: ";
+    cin >> number;
+    SwitchElement(Array, Size, _number, number);
+    cout << "Ğ˜Ğ·Ğ¼ĞµĞ½Ñ‘Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²: ";
+    Print(Array, Size);
 
     
 
