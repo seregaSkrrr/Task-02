@@ -1,6 +1,0 @@
-﻿  DZ1.cpp
-C:\Users\kravt\source\repos\DZ1\DZ1\DZ1.cpp(9,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\kravt\source\repos\DZ1\DZ1\DZ1.cpp(12,9): warning C4101: Array: неиспользованная локальная переменная
-C:\Users\kravt\source\repos\DZ1\DZ1\DZ1.cpp(14,9): warning C4101: number: неиспользованная локальная переменная
-C:\Users\kravt\source\repos\DZ1\DZ1\DZ1.cpp(13,9): warning C4101: _number: неиспользованная локальная переменная
-  DZ1.vcxproj -> C:\Users\kravt\source\repos\DZ1\x64\Debug\DZ1.exe
